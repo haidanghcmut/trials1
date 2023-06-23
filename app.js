@@ -6,3 +6,4 @@ if (btnQuery) {
   });
 }
 const btnDelete = document.getElementById("btnDelete");
+console.log(btnDelete);
