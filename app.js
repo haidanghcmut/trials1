@@ -9,3 +9,8 @@ const btnDelete = document.getElementById("btnDelete");
 console.log(btnDelete);
 const btnUpdate = document.getElementById("btnUpdate");
 console.log(btnUpdate);
+if (btnDelete) {
+  btnDelete.addEventListener("click", function () {
+    window.location.href = "/delete";
+  });
+}
