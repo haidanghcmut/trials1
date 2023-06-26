@@ -7,3 +7,5 @@ if (btnQuery) {
 }
 const btnDelete = document.getElementById("btnDelete");
 console.log(btnDelete);
+const btnUpdate = document.getElementById("btnUpdate");
+console.log(btnUpdate);
